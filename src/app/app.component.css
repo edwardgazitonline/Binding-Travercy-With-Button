@@ -1,8 +1,7 @@
 p {
   font-family: Lato;
 }
-
-.coontainer {
+.contaiiner {
     max-width: 500px;
       margin: 30px auto;
         overflow: auto;
