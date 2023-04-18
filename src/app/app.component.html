@@ -7,10 +7,11 @@
     <strong>List Saved!</strong> Your changes has been saved.
   </div>
 -->
-    <div *ngIf="showHide()" > 
-         Your changes has been saved.
-    </div>
-<p [hidden]="true">This is visible</p>
+    <div> 
+       <p>  Your changes has been saved.</p>
+    
+        <p [hidden]="show">This is visible</p>
+</div>
 
 
 
